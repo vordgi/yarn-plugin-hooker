@@ -1,8 +1,32 @@
 {
     "name": "yarn-plugin-hooker",
-    "version": "0.0.2",
+    "description": "Yarn plugin that adds support for Pre- and Post- hooks",
+    "version": "0.1.0",
     "main": "./lib/index.cjs",
     "bin": "./lib/cli.cjs",
+    "files": [
+      "lib"
+    ],
+    "keywords": [
+      "yarn",
+      "berry",
+      "hooks",
+      "pre",
+      "post",
+      "prebuild",
+      "postbuild",
+      "scripts"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/vordgi/yarn-plugin-hooker.git"
+    },
+    "author": {
+      "name": "Savelyev Alexander",
+      "email": "vordgi1@gmail.com",
+      "url": "https://github.com/vordgi/"
+    },
+    "license": "MIT",
     "devDependencies": {
         "@yarnpkg/core": "3.5.0"
     }
