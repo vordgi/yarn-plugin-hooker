@@ -1,8 +1,8 @@
 {
     "name": "yarn-plugin-hooker",
-    "version": "0.0.1",
-    "main": "./yarn-plugin-hooker.js",
-    "bin": "./install.js",
+    "version": "0.0.2",
+    "main": "./lib/index.cjs",
+    "bin": "./lib/cli.cjs",
     "devDependencies": {
         "@yarnpkg/core": "3.5.0"
     }
