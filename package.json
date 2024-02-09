@@ -1,0 +1,9 @@
+{
+    "name": "yarn-plugin-hooker",
+    "version": "0.0.1",
+    "main": "./yarn-plugin-hooker.js",
+    "bin": "./install.js",
+    "devDependencies": {
+        "@yarnpkg/core": "3.5.0"
+    }
+}
